@@ -3,6 +3,10 @@ body{
     sans-serif;
     background-color: #FFFFFF;
 }
+.add{
+    padding: 105px 90px;
+    background-color: #FFFFFF;
+}
 .main{
 display: flex;
 flex-direction: row-reverse;
