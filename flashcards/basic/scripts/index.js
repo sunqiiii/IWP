@@ -1,11 +1,13 @@
 class question {
-  constructor (question, answer) {
+  constructor(question, answer) {
     this.question = question;
     this.answer = answer;
+    this.correct = false;
   }
 }
 
 let quiz = [];
+
 quiz.push(new question('What is 3+5?', 'more than six?'));
 quiz.push(new question('What color is the sky?', 'blue'));
 quiz.push(new question('Is ice cold?', 'yes'));
