@@ -126,11 +126,9 @@ padding: 0;
     width: 370px;
     grid-column: 1;
     grid-row: 2;
+    margin: 10px;
 }
-.photo {
-    width: 370px;
-    margin-bottom: 50px;
-}
+
 .sidebar-title{
     color: #FFFFFF;
     font-style: normal;
@@ -138,6 +136,9 @@ padding: 0;
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 10px;
+}
+.contacts, .portfolio, .tech-skills, .language, .soft-skills, .profile{
+    margin-left: 40px;
 }
 .profile{
     color: #ffffff;
@@ -147,7 +148,29 @@ padding: 0;
     color: #FFFFFF;
     padding: 0;
     margin-right: 17px;
-    
+}
+.contacts{
+    margin-bottom: 50px;
+}
+.portfolio, .tech-skills, .soft-skills, .profile {
+    margin-bottom: 45px;
+}
+.contact-type{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 10px;
+}
+.contact-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
 .skills-list{
     font-style: normal;
     font-weight: 400;
