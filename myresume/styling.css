@@ -15,12 +15,12 @@ body{
 .main{
     width: 1200px;
     margin: 0 auto;
-    grid-column: 2;
-    grid-row: 2;
 }
 .main-content{
     padding: 105px 90px;
     background-color: #FFFFFF;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 /* about styles */
