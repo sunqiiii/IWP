@@ -127,7 +127,6 @@ padding: 0;
     grid-column: 1;
     grid-row: 2;
     margin: 10px;
-    margin-left: 40px;
 }
 
 .sidebar-title{
@@ -139,7 +138,7 @@ padding: 0;
     margin-bottom: 10px;
 }
 
-.contacts, .portfolio, .tech-skills, .language, .soft-skills, {
+.contacts, .portfolio, .tech-skills, .language, .soft-skills{
     margin-left: 40px;
 }
 .profile{
