@@ -4,13 +4,14 @@ body{
     background-color: #FFFFFF;
 }
 .add{
-    padding: 105px 90px;
+    width: 1200px;
+    padding: 40px 90px;
     background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .main{
 display: flex;
 flex-direction: row-reverse;
-
 width: 1200px;
 margin: 0 auto;
 }
@@ -48,48 +49,6 @@ line-height: 24px;
 color: #595959;
 padding: 0;
 margin-left: 20px;
-}
-.projects{
-margin-bottom: 50px;
-}
-.title{
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 27px;
-color: #000000;
-margin-bottom: 15px;
-}
-.projects-list{
-padding: 0;
-margin-left: 20px;
-}
-.project-item{
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-color: #000000;
-}
-.project, .project-link, .certificate-link{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
-}
-.project-link{
-margin-left: 10px;
-}
-.project-bracket{
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 24px;
-color: #000000;
-}
-.certificates{
-margin-bottom: 45px;
 }
 
 .work{
