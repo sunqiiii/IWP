@@ -3,17 +3,16 @@ body{
     sans-serif;
     background-color: #FFFFFF;
 }
-.add{
-    width: 1200px;
-    padding: 40px 90px;
-    background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
 .main{
 display: flex;
 flex-direction: row-reverse;
 width: 1200px;
 margin: 0 auto;
+}
+.add{
+    padding: 40px 90px;
+    background-color: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 .main-content{
     padding: 105px 90px;
