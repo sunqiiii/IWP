@@ -13,13 +13,13 @@ body{
 }
 .add{
     padding: 20px 20px;
-    background-color: #FFFFFF;
+    background-color: #eda6ab;
     grid-column: 1 / 3;
     grid-row: 1;
 }
 .main-content{
     padding: 105px 90px;
-    background-color: #FFFFFF;
+    background-color: ##bfbdaa;
     grid-column: 2;
     grid-row: 2;
 }
