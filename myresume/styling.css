@@ -2,23 +2,25 @@ body{
     font-family: 'poppins',
     sans-serif;
     background-color: #FFFFFF;
-}
-.main{
-    display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
 }
 .add{
-    padding: 40px 90px;
+    padding: 40px 20px;
     background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    column-span: all;
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    grid-column: 2;
+    grid-row: 2;
 }
 .main-content{
     padding: 105px 90px;
     background-color: #FFFFFF;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* about styles */
@@ -114,11 +116,13 @@ margin-left: 20px;
     color: #000000;
     margin-bottom: 12px;
 }
+
 .sidebar {
     background-color: #1E2939;
-    
     padding-top: 40px;
     width: 370px;
+    grid-column: 1;
+    grid-row: 2;
 }
 .photo {
     width: 370px;
