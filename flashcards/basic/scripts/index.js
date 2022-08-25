@@ -1,16 +1,33 @@
-document.getElementById('p1').ondrag = function() {
-let ele = document.getElementById('p1');
-ele.innerHTML = 'I have been dragged! Alert the police!'; 
+class flashcards {
+  constructor(question, answer) {
+    this.question = question;
+    this.answer = answer;
+  }
 }
-document.getElementById('p2').onmousedown = function() {
-let ele = document.getElementById('p2');
-ele.innerHTML = 'I have been clicked! Alert the police!'; 
+
+let q = document.getElementById("q");
+let a = document.getElementById("a");
+let quiz = [];
+
+quiz.push(new flashcards('What is 3+5?', 'more than six?'));
+quiz.push(new flashcards('What color is the sky?', 'blue'));
+quiz.push(new flashcards('Is ice cold?', 'yes'));
+
+let i = 0
+document.getElementById('q').onclick = function() {
+  a.innerHTML = quiz[i].answer;
 }
-document.getElementById('p3').onmouseup = function() {
-let ele = document.getElementById('p3');
-ele.innerHTML = 'I have been clicked! Alert the police!'; 
+
+function previous() {
+  while (i < quiz.length) {
+    q.innerHTML= quiz[i].question;
+    a.innerHTML= "";
+  } i = i + 1;
 }
-document.getElementById('p4').onmouseover = function() {
-let ele = document.getElementById('p4');
-ele.innerHTML = 'Stop hovering! Alert the police!'; 
+
+function next() {
+  while (i < quiz.length) {
+    q.innerHTML= quiz[i].question;
+    a.innerHTML= "";
+  } i = i + 1;
 }
