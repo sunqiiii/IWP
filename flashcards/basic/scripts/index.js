@@ -19,15 +19,23 @@ document.getElementById('q').onclick = function() {
 }
 
 function previous() {
-  while (i < quiz.length) {
-    q.innerHTML= quiz[i].question;
-    a.innerHTML= "";
-  } i = i + 1;
+    if (i > 0) {
+     i = i - 1;
+  }
+  else if (i === 0) {
+    i = quiz.length - 1;
+  }
+  q.innerHTML = quiz[i].question;
+  a.innerHTML = " ";
 }
 
 function next() {
-  while (i < quiz.length) {
-    q.innerHTML= quiz[i].question;
-    a.innerHTML= "";
-  } i = i + 1;
+  if (i < quiz.length - 1) {
+    i = i + 1;
+  }
+  else if (i === quiz.length - 1) {
+    i = 0
+  }
+  q.innerHTML = quiz[i].question;
+  a.innerHTML = " ";
 }
