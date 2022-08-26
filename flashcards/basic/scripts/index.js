@@ -14,6 +14,9 @@ quiz.push(new flashcards('What color is the sky?', 'blue'));
 quiz.push(new flashcards('Is ice cold?', 'yes'));
 
 let i = 0
+document.getElementById('show1').onclick = function(){
+  q.innerHTML = quiz[i].question;
+}
 document.getElementById('q').onclick = function() {
   a.innerHTML = quiz[i].answer;
 }
